@@ -1,0 +1,25 @@
+PODS:
+  - AWSCore (2.6.18)
+  - AWSKinesis (2.6.18):
+    - AWSCore (= 2.6.18)
+  - AWSMobileAnalytics (2.6.18):
+    - AWSCore (= 2.6.18)
+
+DEPENDENCIES:
+  - AWSKinesis
+  - AWSMobileAnalytics
+
+SPEC REPOS:
+  trunk:
+    - AWSCore
+    - AWSKinesis
+    - AWSMobileAnalytics
+
+SPEC CHECKSUMS:
+  AWSCore: 5594f02730a821907d155ac28e96593d1caa6f64
+  AWSKinesis: 8cee51783cab6b5740c748cf80f31ce28c39dbc6
+  AWSMobileAnalytics: 096a23d1a01e40ac98086f12e1fd5ca192c5559f
+
+PODFILE CHECKSUM: a646abd1367e1106dfffb015c46e54f23af761a0
+
+COCOAPODS: 1.10.0
